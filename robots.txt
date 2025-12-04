@@ -1,0 +1,10 @@
+# robots.txt
+User-agent: *
+Allow: /
+
+# Обмеження сканування для сторінок, які не мають потрапляти в індекс
+Disallow: /temp/
+Disallow: /private-scripts/
+
+# Вказуємо шлях до нашої карти сайту.
+Sitemap: https://annarudd-gif.github.io/my-first-site/sitemap.xml
